@@ -65,7 +65,8 @@ const services = [
 
   return(
     <div className='bg-[#EAEFF2] h-[650px]'>
-      <h1 className='text-center pt-20 font-bold font-oswald text-4xl'>SPECIAL SERVICES</h1>
+      <h1 className='text-center pt-20 font-bold font-oswald text-4xl pb-2 '>SPECIAL SERVICES</h1>
+      <img className='w-[80px] mx-auto' src="./barber-scissors.png" alt="" />
     <div className=' md:w-[850px] m-auto'>
       <div className='mt-20'>
         <Slider {...settings}>
