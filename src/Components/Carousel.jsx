@@ -64,7 +64,7 @@ const services = [
 
 
   return(
-    <div className='bg-[#EAEFF2]'>
+    <div className='bg-[#EAEFF2] h-[650px]'>
       <h1 className='text-center pt-20 font-bold font-oswald text-4xl'>SPECIAL SERVICES</h1>
     <div className=' md:w-[850px] m-auto'>
       <div className='mt-20'>
