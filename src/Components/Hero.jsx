@@ -8,7 +8,7 @@ const Hero = () => {
         <p className='text-xs md:text-sm text-white [word-spacing:0.16rem] p-2 tracking-widest'>WE ARE A UNIQUE</p>
         <h1 className='text-white font-bold text-3xl sm:text-6xl md:text-7xl '>BARBER SHOP</h1>
         <p className='text-white p-2 text-xs'>The best place for your hairstyle.</p>
-        <button className='bg-[#bb9e86] p-3 m-4 text-[10px] hover:text-[#34567e] hover:duration-500 rounded-lg font-bold tracking-widest'>MAKE AN APPOINTMENT</button>
+        <button className='bg-[#D19D64] p-3 m-4 text-[10px] hover:text-[#34567e] hover:duration-500 rounded-lg font-bold tracking-widest'>MAKE AN APPOINTMENT</button>
         <div>
             
         </div>
