@@ -1,8 +1,14 @@
 import React from 'react'
 
+
 const Reviews = () => {
+
+
+
   return (
-    <div>Reviews</div>
+    <div className='bg-review-image' >
+
+    </div>
   )
 }
 
