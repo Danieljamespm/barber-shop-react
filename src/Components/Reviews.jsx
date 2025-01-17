@@ -20,7 +20,7 @@ const Reviews = () => {
 
 
   return (
-    <div className='bg-review-image h-[500px] bg-cover bg-center opacity-90 pt-10 flex flex-col items-center  ' >
+    <div className='bg-review-image h-[500px] bg-cover bg-center opacity-90 pt-10 flex flex-col items-center px-20 mx-20' >
         <p className='text-white text-center text-4xl font-oswald font-bold'>1000+ HAPPY CLIENTS</p>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
         <div className=' w-[50%] h-[75%]'>
