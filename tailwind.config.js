@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        oswald: ['"Oswald"',]
+        oswald: ['"Oswald"'],
+        Opensans: ['"Open Sans"']
       },
       backgroundImage: {
         'hero-image' : "url('./hero-image.jpg')"
