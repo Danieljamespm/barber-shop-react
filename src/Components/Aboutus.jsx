@@ -21,7 +21,7 @@ const Aboutus = () => {
         
            
 
-        <button className='bg-[#D19D64] text-black px-4 py-3 m-5 md:mx-32 text-[10px] hover:bg-black hover:text-[#D19D64] hover:duration-500 rounded-lg font-bold tracking-widest'>READ MORE</button>
+        <button className='bg-[#D19D64] text-black px-6 py-2 m-5 md:mx-32 text-[9px] font-oswald  hover:bg-black hover:text-[#D19D64] hover:duration-500 rounded-lg font-bold tracking-widest'>READ MORE</button>
 
     </div>
   )
