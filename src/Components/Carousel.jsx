@@ -23,6 +23,8 @@ const services = [
     { id: 6, image: image6, title: 'Massage', description: 'Relaxing massage for the best experience.' },
   ];
 
+  
+
 
   const settings = {
     dots: true,
@@ -74,7 +76,7 @@ const services = [
             </div>
 
             <div className='flex flex-col items-center justify-center gap-4 p-5 px-2 mx-2 hover:bg-black hover:text-white'>
-              <p className='text-[#bb9e86] text-2xl font-oswald uppercase font-bold text-center px-2'>{card.title}</p>
+              <p className='text-[#D19D64] text-2xl font-oswald uppercase font-bold text-center px-2'>{card.title}</p>
               <p className='text-[10px] px-2'>{card.description}</p>
               <button className='bg-white border-[1px] border-black text-black px-10 py-2 m-5 md:mx-32 text-[8px] hover:bg-[#bb9e86] hover:text-white hover:duration-500 rounded-lg font-oswald font-bold tracking-widest text-nowrap'>READ MORE</button>
             </div>
