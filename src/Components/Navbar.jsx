@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     
-    <nav className='bg-black fixed w-full bg-opacity-50'>
+    <nav className='bg-black fixed w-full bg-opacity-50 z-40'>
       <ul className='flex justify-between lg:justify-around items-center w-full text-slate-50 p-2 lg:px-32 text-[12px] font-light tracking-widest font-oswald mx-auto hover:duration-500'>
         <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#'>HOME</a></li>
         <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#aboutus'>ABOUT US</a></li>
