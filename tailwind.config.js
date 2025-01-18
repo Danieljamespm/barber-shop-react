@@ -11,7 +11,8 @@ export default {
         Opensans: ['"Open Sans"']
       },
       backgroundImage: {
-        'hero-image' : "url('./hero-image.jpg')"
+        'hero-image' : "url('./hero-image.jpg')",
+        'review-image' : "url('./review-image.jpg')",
       }
     },
   },
