@@ -15,7 +15,7 @@ import Slider from 'react-slick'
 const Carousel = () => {
  
 const services = [
-    { id: 1, image: image1, title: ' Classic Haircut', description: 'Professional haircut for all styles.' },
+    { id: 1, image: image1, title: ' Classic Cut', description: 'Professional haircut for all styles.' },
     { id: 2, image: image5, title: 'Razor Shave', description: 'Clean shave with razor precision.' },
     { id: 3, image: image3, title: 'Facial', description: 'Refreshing facial treatments.' },
     { id: 4, image: image2, title: 'Beard Trim', description: 'Perfect beard grooming services.' },
@@ -71,12 +71,12 @@ const services = [
       <div className='mt-20'>
         <Slider {...settings}>
         {services.map((card) => (
-          <div className='bg-slate-200  md:h-[450px] border-[3px] border-black '>
+          <div className='bg-slate-200  md:h-[450px] h-[400px] border-[3px] border-black '>
             <div className='flex justify-center items-center'>
               <img src={card.image} alt='' className='w-[100%] pt-2 px-2 object-cover'/>
             </div>
 
-            <div className='flex flex-col items-center justify-center gap-4 p-5 px-2 mx-2 hover:bg-black hover:text-white'>
+            <div className='flex flex-col items-center justify-center gap-4 p-10 md:p-5 px-2 mx-2 hover:bg-black hover:text-white'>
               <p className='text-[#D19D64] text-2xl font-oswald uppercase font-bold text-center px-2'>{card.title}</p>
               <p className='text-[10px] px-2'>{card.description}</p>
               <button className='bg-white border-[1px] border-black text-black px-10 py-2 m-5 md:mx-32 text-[8px] hover:bg-[#bb9e86] hover:text-white hover:duration-500 rounded-lg font-oswald font-bold tracking-widest text-nowrap'>READ MORE</button>
