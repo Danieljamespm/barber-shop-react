@@ -20,14 +20,14 @@ const Reviews = () => {
 
 
   return (
-    <div className='bg-black bg-blend-darken bg-opacity-70 bg-review-image h-[500px] bg-cover bg-center md:pt-10 flex flex-col items-center sm:px-20 xl:mx-20' >
+    <div className='bg-black bg-blend-darken bg-opacity-70 bg-review-image h-[500px] bg-cover bg-center md:pt-10 flex flex-col items-center sm:px-20 ' >
         <p className='text-white text-center text-4xl font-oswald font-bold'>1000+ HAPPY CLIENTS</p>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
         <div className=' w-[80%] md:w-[75%] h-[50%] p-4'>
         <Slider {...settings}>
             <div>
                 <div className='flex flex-col justify-center items-center mx-auto pb-16'>
-                <img className= 'w-[70px] h-[70px] rounded-full object-cover' src={portrait1}/>
+                <img className= 'w-[100px] h-[100px] rounded-full object-cover' src={portrait1}/>
                 </div>
 
                 <div className=' flex flex-col justify-center items-center text-center'>
@@ -38,7 +38,7 @@ const Reviews = () => {
 
              <div>
              <div className='flex flex-col justify-center items-center mx-auto pb-16'>
-                <img className='w-[70px] h-[70px] rounded-full object-cover' src={portrait2}/>
+                <img className='w-[100px] h-[100px] rounded-full object-cover' src={portrait2}/>
                 </div>
 
                 <div className=' flex flex-col justify-center items-center  text-center'>
@@ -49,7 +49,7 @@ const Reviews = () => {
 
              <div>
              <div className='flex flex-col justify-center items-center mx-auto pb-16'>
-                <img className='w-[70px] h-[70px] rounded-full object-cover' src={portrait3}/>
+                <img className='w-[100px] h-[100px] rounded-full object-cover' src={portrait3}/>
                 </div>
 
                 <div className=' flex flex-col justify-center items-center  text-center'>
