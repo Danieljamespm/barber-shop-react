@@ -65,15 +65,15 @@ const services = [
 
   return(
     <div id='services' className='bg-[#EAEFF2] h-[700px]'>
-      <h1 className='text-center pt-20 font-bold font-oswald text-4xl pb-2 '>SPECIAL SERVICES</h1>
+      <h1 className='text-center pt-10 font-bold font-oswald text-4xl pb-2 '>SPECIAL SERVICES</h1>
       <img className='w-[80px] mx-auto' src="./barber-scissors.png" alt="" />
-    <div className=' md:w-[850px] m-auto'>
+    <div className=' md:w-[1100px] m-auto'>
       <div className='mt-20'>
         <Slider {...settings}>
         {services.map((card) => (
-          <div className='bg-slate-200  md:h-[380px] border-[3px] border-black '>
+          <div className='bg-slate-200  md:h-[450px] border-[3px] border-black '>
             <div className='flex justify-center items-center'>
-              <img src={card.image} alt='' className='px-2 pt-2'/>
+              <img src={card.image} alt='' className='w-[100%] pt-2 px-2 object-cover'/>
             </div>
 
             <div className='flex flex-col items-center justify-center gap-4 p-5 px-2 mx-2 hover:bg-black hover:text-white'>
