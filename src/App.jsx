@@ -5,6 +5,7 @@ import Aboutus from './Components/Aboutus'
 import Carousel from './Components/Carousel'
 import Reviews from './Components/Reviews'
 import Employees from './Components/Employees'
+import Discount from './Components/Discount'
 
 
 
@@ -20,6 +21,7 @@ function App() {
     <Carousel />
     <Reviews />
     <Employees />
+    <Discount />
     </>
   )
 }
