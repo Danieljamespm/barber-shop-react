@@ -57,22 +57,22 @@ const Employees = () => {
 
 
   return (
-    <div id='team' className='bg-[#EAEFF2] h-[700px]'>
+    <div id='team' className='bg-[#EAEFF2] h-[740px]'>
         <h1 className='text-center pt-10 font-bold font-oswald text-5xl pb-2'>OUR TEAM</h1>
         <img className='w-[80px] mx-auto' src="./barber-scissors.png" alt="" />
         <div className='md:w-[1100px] m-auto'>
             <div className='mt-20'>
                 <Slider {...settings}>
                     {employees.map((card) => (
-                        <div className='bg-slate-200  md:h-[450px] border-[3px] border-black' >
+                        <div className='bg-slate-200  md:h-[470px] border-[3px] border-black' >
                             <div className='flex justify-center items-center'>
                                 <img src={card.image} alt=''className='h-[395px] w-[400px] object-cover '/>
                             </div>
 
 
-                            <div className='bg-black h-[50px]'>
-                                <p className='text-white text-2xl font-oswald uppercase font-bold text-center px-2'>{card.Name}</p>
-                                <p className='text-center font-OpenSans text-[#D19D64]'>{card.title}</p>
+                            <div className='bg-black h-[70px]'>
+                                <p className='text-white text-2xl font-oswald uppercase font-bold text-center px-2 pt-2'>{card.Name}</p>
+                                <p className='text-center font-oswald text-[#D19D64]'>{card.title}</p>
                             </div>
                         </div>
                     ))}
