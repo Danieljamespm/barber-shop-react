@@ -39,7 +39,7 @@ const Appontment = () => {
                         <option className='bg-white'>10:00 to 11:00</option>
                         <option className='bg-white'>11:00 to 11:30</option>
                     </select>
-                    <input className='bg-black w-[80%] mt-6 py-2 font-oswald text-[#d19d64] text-[10px] font-bold' type='submit' value='MAKE AN APPOINTMENT NOW' />
+                    <input className='bg-black w-[80%] mt-6 py-2 font-oswald text-[#d19d64] text-[10px] font-bold hover:cursor-pointer hover:bg-white hover:text-black hover:duration-500' type='submit' value='MAKE AN APPOINTMENT NOW' />
                 </form>
             </div>
 
