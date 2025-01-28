@@ -57,8 +57,13 @@ const Pricing = () => {
 
   return (
     <div className='w-[100%] h-[700px]'>
-        <h2 className='text-4xl font-oswald font-bold text-center pt-20 pb-2'>OUR PRICING</h2>
+    <div className='text-center'>
+        <h2 className='text-4xl font-oswald font-bold  pt-20 pb-2'>OUR PRICING</h2>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
+    </div>
+        <div className='max-w-[900px] bg-gray-500 h-[500px] mx-auto'>
+
+        </div>
     </div>
   )
 }
