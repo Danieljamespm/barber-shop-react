@@ -13,6 +13,7 @@ export default {
       backgroundImage: {
         'hero-image' : "url('./hero-image.jpg')",
         'review-image' : "url('./review-image.jpg')",
+        'barber-chair' : "url('./barber-chair.jpg')",
       }
     },
   },

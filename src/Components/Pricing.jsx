@@ -141,7 +141,7 @@ const Pricing = () => {
 
   return (
     
-        <div className='h-[700px] w-full'>
+        <div className='bg-barber-chair bg-cover bg-center h-[700px] '>
             <h2 className='text-4xl text-center font-oswald font-bold pt-20 pb-2'>OUR PRICING</h2>
             <img className='w-[80px] mx-auto pb-10' src='./barber-scissors.png' />
                 <div className='bg-slate-300 w-[80%] h-[50%] m-auto'>
