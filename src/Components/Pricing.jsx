@@ -156,6 +156,10 @@ const Pricing = () => {
             </div>
             <div>{tabContent[activeTab]}</div>
             </div>
+            <div className='h-[45px] max-w-[65%] hover:bg-black hover:duration-500 mx-auto p-12 border-2 border-gray-500 flex justify-between items-center'>
+                <p className='text-white font-oswald'>OPENING HOURS: MONDAY-FRIDAY: 9.00AM-6.00PM</p>
+                <button className='bg-[#D19D64] h-[30px] w-[180px] text-[10px] hover:bg-white hover:duration-500 rounded-lg font-oswald font-bold tracking-widest'>MAKE APPOINTMENT NOW</button>
+            </div>
         </div>    
   )
 }
