@@ -54,7 +54,7 @@ const Pricing = () => {
         ),
         tab2: (
             <div className='flex justify-around flex-col md:flex-row'>
-            <div className=' w-[100%] md:w-[35%]'>
+            <div className=' w-[100%] md:w-[45%]'>
                 
                 <div className='flex justify-between'>
                 <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>BEAR TRIM </p>
@@ -73,7 +73,7 @@ const Pricing = () => {
                 <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$15</p>
                 </div>
             </div>
-            <div className=' w-[100%] md:w-[35%]'>
+            <div className=' w-[100%] md:w-[45%]'>
                 <div className='flex justify-between'>
                 <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>BEARD LINE-UP</p>
                 <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$20</p>
@@ -95,7 +95,7 @@ const Pricing = () => {
         ),
         tab3: (
             <div className='flex justify-around flex-col md:flex-row'>
-                <div className=' w-[100%] md:w-[35%]'>
+                <div className=' w-[100%] md:w-[45%]'>
                     
                     <div className='flex justify-between'>
                     <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>MANICURE </p>
@@ -114,7 +114,7 @@ const Pricing = () => {
                     <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$10</p>
                     </div>
                 </div>
-                <div className=' w-[100%] md:w-[35%]'>
+                <div className=' w-[100%] md:w-[45%]'>
                     <div className='flex justify-between'>
                     <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>EYEBROW WAXING</p>
                     <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$20</p>
