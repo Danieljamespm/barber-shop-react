@@ -145,7 +145,7 @@ const Pricing = () => {
             <h2 className='text-4xl text-center font-oswald font-bold pt-20 pb-2 text-white'>OUR PRICING</h2>
             <img className='w-[80px] mx-auto pb-10' src='./barber-scissors.png' />
                 <div className=' w-[80%] h-[50%] m-auto'>
-               <div className='flex flex-wrap justify-start bg-black text-gray-500 text-xl font-bold border-b-2 border-[#d19d64] '>
+               <div className='flex flex-wrap justify-around bg-black text-gray-500 text-xl font-bold border-b-2 border-[#d19d64] '>
                 {tabs.map((tab) => (
                     <button key={tab.id} onClick={() => setActiveTab(tab.id)} className={`font-oswald hover:bg-[#d19d64] hover:text-black px-10 hover:duration-500 ${
                         activeTab === tab.id ? 'bg-[#d19d64] text-black' : 'bg-black text-gray-500'
