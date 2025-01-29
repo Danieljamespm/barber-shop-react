@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Appontment = () => {
+const Appointment = () => {
   return (
     <div  id='appointment' className=' w-[100%] h-[700px] bg-black text-white'>
         <h2 className='text-center pt-20 pb-2 text-4xl font-oswald font-bold '>MAKE AN APPOINTMENT</h2>
@@ -49,4 +49,4 @@ const Appontment = () => {
   )
 }
 
-export default Appontment
+export default Appointment
