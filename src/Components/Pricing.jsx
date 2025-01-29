@@ -16,38 +16,38 @@ const Pricing = () => {
                 <div className=' w-[100%] md:w-[35%]'>
                     
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>VINTAGE HAIR CUT </p>
-                    <p className='text-[#d19d64] border-b-2 md:pt-10 border-gray-400 font-oswald pt-3'>$12</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>VINTAGE HAIR CUT </p>
+                    <p className='text-[#d19d64] border-b md:pt-10 border-gray-400 font-oswald pt-3'>$12</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>CLASSIC HAIRCUT</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$25</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>CLASSIC HAIRCUT</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$25</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>STYLISH HAIRCUT</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$34</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>STYLISH HAIRCUT</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$34</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>TRADITIONAL HAIR CUT</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$44</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>TRADITIONAL HAIR CUT</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$44</p>
                     </div>
                 </div>
                 <div className=' w-[100%] md:w-[35%]'>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>HAIR WASH</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$12</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>HAIR WASH</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$12</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>HAIR COLOR</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$75</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>HAIR COLOR</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$75</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>HIGHLIGHT</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$49</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>HIGHLIGHT</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$49</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>HAIR RESTORATION/REPLACEMENT</p>
-                    <p className='text-[#d19d64] md:pt-10  font-oswald border-b-2 border-gray-400 pt-3'>$99</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>HAIR RESTORATION/REPLACEMENT</p>
+                    <p className='text-[#d19d64] md:pt-10  font-oswald border-b border-gray-400 pt-3'>$99</p>
                     </div>
                 </div>
             </div>
@@ -57,38 +57,38 @@ const Pricing = () => {
             <div className=' w-[100%] md:w-[35%]'>
                 
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>BEAR TRIM </p>
-                <p className='text-[#d19d64] border-b-2 md:pt-10 border-gray-400 font-oswald pt-3'>$10</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>BEAR TRIM </p>
+                <p className='text-[#d19d64] border-b md:pt-10 border-gray-400 font-oswald pt-3'>$10</p>
                 </div>
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>FULL BEARD SHAPING</p>
-                <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$30</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>FULL BEARD SHAPING</p>
+                <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$30</p>
                 </div>
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>HOT TOWEL SHAVE</p>
-                <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$25</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>HOT TOWEL SHAVE</p>
+                <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$25</p>
                 </div>
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>CLASSIC SHAVE</p>
-                <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$15</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>CLASSIC SHAVE</p>
+                <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$15</p>
                 </div>
             </div>
             <div className=' w-[100%] md:w-[35%]'>
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>BEARD LINE-UP</p>
-                <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$20</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>BEARD LINE-UP</p>
+                <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$20</p>
                 </div>
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>MUSTACHE TRIM</p>
-                <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$20</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>MUSTACHE TRIM</p>
+                <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$20</p>
                 </div>
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>FACIAL HAIR TINTING</p>
-                <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$40</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>FACIAL HAIR TINTING</p>
+                <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$40</p>
                 </div>
                 <div className='flex justify-between'>
-                <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>SKIN TREATMENTS</p>
-                <p className='text-[#d19d64] md:pt-10  font-oswald border-b-2 border-gray-400 pt-3'>$15</p>
+                <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>SKIN TREATMENTS</p>
+                <p className='text-[#d19d64] md:pt-10  font-oswald border-b border-gray-400 pt-3'>$15</p>
                 </div>
             </div>
         </div>
@@ -98,38 +98,38 @@ const Pricing = () => {
                 <div className=' w-[100%] md:w-[35%]'>
                     
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>MANICURE </p>
-                    <p className='text-[#d19d64] border-b-2 md:pt-10 border-gray-400 font-oswald pt-3'>$10</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>MANICURE </p>
+                    <p className='text-[#d19d64] border-b md:pt-10 border-gray-400 font-oswald pt-3'>$10</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>PEDICURE</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$15</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>PEDICURE</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$15</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>FACIAL</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$20</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>FACIAL</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$20</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>FACE MASK</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$10</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>FACE MASK</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$10</p>
                     </div>
                 </div>
                 <div className=' w-[100%] md:w-[35%]'>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>EYEBROW WAXING</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$20</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>EYEBROW WAXING</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$20</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>NOSE AND EAR TRIMMING</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$20</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>NOSE AND EAR TRIMMING</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$20</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>CHEST AND BACK WAXING</p>
-                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b-2 border-gray-400 pt-3'>$40</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>CHEST AND BACK WAXING</p>
+                    <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$40</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b-2 w-full border-gray-400 md:pt-10'>MASSAGE</p>
-                    <p className='text-[#d19d64] md:pt-10  font-oswald border-b-2 border-gray-400 pt-3'>$30</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>MASSAGE</p>
+                    <p className='text-[#d19d64] md:pt-10  font-oswald border-b border-gray-400 pt-3'>$30</p>
                     </div>
                 </div>
             </div>
