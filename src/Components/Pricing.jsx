@@ -13,7 +13,7 @@ const Pricing = () => {
     const tabContent = {
         tab1: (
             <div className='flex justify-around flex-col md:flex-row'>
-                <div className=' w-[100%] md:w-[35%]'>
+                <div className=' w-[100%] md:w-[45%]'>
                     
                     <div className='flex justify-between'>
                     <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>VINTAGE HAIR CUT </p>
@@ -32,7 +32,7 @@ const Pricing = () => {
                     <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$44</p>
                     </div>
                 </div>
-                <div className=' w-[100%] md:w-[35%]'>
+                <div className=' w-[100%] md:w-[45%]'>
                     <div className='flex justify-between'>
                     <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>HAIR WASH</p>
                     <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$12</p>
@@ -141,11 +141,11 @@ const Pricing = () => {
 
   return (
     
-        <div className='bg-black bg-blend-darken bg-opacity-70 bg-barber-chair bg-cover bg-center h-[700px] '>
+        <div className='bg-black bg-blend-darken bg-opacity-70 bg-barber-chair bg-cover bg-center h-[750px] '>
             <h2 className='text-4xl text-center font-oswald font-bold pt-20 pb-2 text-white'>OUR PRICING</h2>
             <img className='w-[80px] mx-auto pb-10' src='./barber-scissors.png' />
                 <div className=' w-[80%] h-[50%] m-auto'>
-               <div className='flex flex-wrap justify-around bg-black text-gray-500 text-xl font-bold border-b-2 border-[#d19d64] '>
+               <div className='flex flex-wrap justify-start bg-black text-gray-500 text-xl font-bold border-b-2 border-[#d19d64] '>
                 {tabs.map((tab) => (
                     <button key={tab.id} onClick={() => setActiveTab(tab.id)} className={`font-oswald hover:bg-[#d19d64] hover:text-black px-10 hover:duration-500 ${
                         activeTab === tab.id ? 'bg-[#d19d64] text-black' : 'bg-black text-gray-500'
@@ -156,8 +156,8 @@ const Pricing = () => {
             </div>
             <div>{tabContent[activeTab]}</div>
             </div>
-            <div className='h-[45px] max-w-[65%] hover:bg-black hover:duration-500 mx-auto p-12 border-2 border-gray-500 flex justify-between items-center'>
-                <p className='text-white font-oswald'>OPENING HOURS: MONDAY-FRIDAY: 9.00AM-6.00PM</p>
+            <div className='h-[45px] max-w-[65%] hover:bg-black hover:border-white hover:duration-500 mx-auto p-12 border-2 border-gray-500 hidden md:flex justify-between items-center '>
+                <p className='text-white font-oswald '>OPENING HOURS: MONDAY-FRIDAY: 9.00AM-6.00PM</p>
                 <button className='bg-[#D19D64] h-[30px] w-[180px] text-[10px] hover:bg-white hover:duration-500 rounded-lg font-oswald font-bold tracking-widest'>MAKE APPOINTMENT NOW</button>
             </div>
         </div>    
