@@ -25,7 +25,7 @@ const tabContent = {
     tab1: (
         <div className='w-[100%] h-[100%]'>
             <div className='bg-gray-500 width[100%] h-[50%] m-2 flex justify-center items-center gap-2'>
-                <div className='bg-white w-[23%] h-[90%] bg-haircut-1 bg-cover bg-center hover:opacity-50'>
+                <div className='bg-white w-[25%] h-[25%] bg-haircut-1 bg-cover bg-center hover:opacity-50'>
                 </div>
                 <div className='bg-white w-[23%] h-[90%]'></div>
                 <div className='bg-white w-[23%] h-[90%]'></div>
