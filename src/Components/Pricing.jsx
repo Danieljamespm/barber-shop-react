@@ -16,7 +16,7 @@ const Pricing = () => {
                 <div className=' w-[100%] md:w-[45%]'>
                     
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>VINTAGE HAIR CUT </p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>VINTAGE HAIRCUT </p>
                     <p className='text-[#d19d64] border-b md:pt-10 border-gray-400 font-oswald pt-3'>$12</p>
                     </div>
                     <div className='flex justify-between'>
@@ -28,7 +28,7 @@ const Pricing = () => {
                     <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$34</p>
                     </div>
                     <div className='flex justify-between'>
-                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>TRADITIONAL HAIR CUT</p>
+                    <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>TRADITIONAL HAIRCUT</p>
                     <p className='text-[#d19d64] md:pt-10 font-oswald border-b border-gray-400 pt-3'>$44</p>
                     </div>
                 </div>
