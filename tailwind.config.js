@@ -14,6 +14,7 @@ export default {
         'hero-image' : "url('./hero-image.jpg')",
         'review-image' : "url('./review-image.jpg')",
         'barber-chair' : "url('./barber-chair.jpg')",
+        'haircut-1' : "url('./haircut-1.jpg')"
       }
     },
   },

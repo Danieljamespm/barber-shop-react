@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import image1 from '../assets/haircut-1.jpg'
+
 import image2 from '../assets/haircut-2.jpg'
 import image3 from '../assets/haircut-3.jpg'
 import image4 from '../assets/haircut-4.jpg'
@@ -23,32 +23,21 @@ const galleryTabs = [
 
 const tabContent = {
     tab1: (
-        <div className=' pt-4 flex flex-wrap justify-center items-center gap-4'>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className=' md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image1} alt='' />
+        <div className='w-[100%] h-[100%]'>
+            <div className='bg-gray-500 width[100%] h-[50%] m-2 flex justify-center items-center gap-2'>
+                <div className='bg-white w-[23%] h-[90%] bg-haircut-1 bg-cover bg-center hover:opacity-50'>
+                </div>
+                <div className='bg-white w-[23%] h-[90%]'></div>
+                <div className='bg-white w-[23%] h-[90%]'></div>
+                <div className='bg-white w-[23%] h-[90%]'></div>
+
             </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image2} alt='' />
+            <div className='bg-gray-500 width[100%] h-[50%] m-2 flex justify-center items-center gap-2'>
+            <div className='bg-white w-[23%] h-[90%]'></div>
+                <div className='bg-white w-[23%] h-[90%]'></div>
+                <div className='bg-white w-[23%] h-[90%]'></div>
+                <div className='bg-white w-[23%] h-[90%]'></div>
             </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image3} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image4} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image5} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image6} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image7} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] w-[50px] h-[50px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image8} alt='' />
-            </div>
-            
         </div>
     ),
     tab2: (
@@ -91,7 +80,7 @@ const Gallery = () => {
       <div className='bg-[#EAEFF2] h-[750px] w-full'>
         <h2 className='text-4xl text-center font-oswald font-bold pt-20 pb-2 '>GALLERY</h2>
         <img className='w-[80px] mx-auto pb-10' src='./barber-scissors.png' />
-        <div className='w-[90%] h-[80%] m-auto'>
+        <div className='  w-[90%] h-[80%] m-auto'>
         <div className='text-center'>
             {galleryTabs.map((tab)=> (
                 <button key={tab.id} onClick={()=> setActiveTab(tab.id)} className={`font-oswald px-4 mx-2 mt-2 font-light ${
@@ -101,7 +90,7 @@ const Gallery = () => {
                     </button>
             ))}
         </div>
-        <div>
+        <div className='bg-white w-[100%] h-[100%]'>
             {tabContent[activeTab]}
         </div>
         </div>
