@@ -16,6 +16,16 @@ import image14 from '../assets/shave-6.jpg'
 import image15 from '../assets/shave-7.jpg'
 import image16 from '../assets/shave-8.jpg'
 
+const galleryTabs ={
+    'Haircut': [
+        image1, image2, image3, image4, 
+        image5, image6, image7, image8,
+    ],
+    'Shave': [
+        image9, image10, image11, image12,
+        image13, image14, image15, image16,
+    ],
+};
 
 const Gallery = () => {
     return(
