@@ -26,11 +26,11 @@ function App() {
     <Carousel />
     <Reviews />
     <Employees />
-
-    <Discount />
-
     <Pricing />
+    <Discount />
     <Appointment />
+
+
 
     </>
   )
