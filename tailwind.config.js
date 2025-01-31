@@ -22,6 +22,15 @@ export default {
         'haircut-6' : "url('./assets/haircut-6.jpg')",
         'haircut-7' : "url('./assets/haircut-7.jpg')",
         'haircut-8' : "url('./assets/haircut-8.jpg')",
+        'shave-1' : "url('./assets/shave-1.jpg')",
+        'shave-2' : "url('./assets/shave-2.jpg')",
+        'shave-3' : "url('./assets/shave-3.jpg')",
+        'shave-4' : "url('./assets/shave-4.jpg')",
+        'shave-5' : "url('./assets/shave-5.jpg')",
+        'shave-6' : "url('./assets/shave-6.jpg')",
+        'shave-7' : "url('./assets/shave-7.jpg')",
+        'shave-8' : "url('./assets/shave-8.jpg')",
+
         
       }
     },
