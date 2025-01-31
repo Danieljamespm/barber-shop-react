@@ -2,21 +2,49 @@ import React from 'react'
 
 const Appointment = () => {
   return (
-    <div  id='appointment' className=' w-[100%] h-[1210px] md:h-[700px] bg-black text-white'>
+    <div  id='appointment' className=' w-full h-[1210px] md:h-[700px] bg-black text-white'>
         <h2 className='text-center pt-20 pb-2 text-4xl font-oswald font-bold '>MAKE AN APPOINTMENT</h2>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
-        <div className=' w-[100%] h-[60%] md:flex justify-center pt-7'>
-        <div className='w-[25%]'>
+        <div className=' w-full flex justify-center gap-4 pt-7  bg-white '>
+        <div className='pb-4 w-[300px] bg-slate-500 '>
             <p className='font-oswald font-bold text-xl text-[#d19d64] pb-8'>OPENING HOURS</p>
-            <p className='font-oswald text-xs pb-9 font-light'>MONDAY..............................................................9AM-6PM</p>
-            <p className='font-oswald text-xs pb-9 font-light'>TUESDAY..............................................................9AM-6PM</p>
-            <p className='font-oswald text-xs pb-9 font-light'>WEDNESDAY.......................................................9AM-6PM</p>
-            <p className='font-oswald text-xs pb-9 font-light'>THURSDAY..........................................................9AM-6PM</p>
-            <p className='font-oswald text-xs pb-9 font-light'>FRIDAY.................................................................9AM-6PM</p>
-            <p className='font-oswald text-xs pb-9 font-light'>SATURDAY...........................................................10AM-4PM</p>
-            <p className='font-oswald text-xs'>SUNDAY................................................................CLOSED</p>
+            <div className='flex justify-between'>
+            <p className='font-oswald text-xs font-light'>MONDAY</p>
+            <div className='w-[50%] border-b border-dotted'></div>
+            <p className='font-oswald text-xs font-light'>9AM-6PM</p>
+            </div>
+            <div className='flex justify-between'>
+            <p className='font-oswald text-xs pt-9 font-light '>TUESDAY</p>
+            <div className='w-[50%] border-b border-dotted'></div>
+            <p className='font-oswald text-xs font-light pt-9'>9AM-6PM</p>
+            </div>
+            <div className='flex justify-between'>
+            <p className='font-oswald text-xs pt-9 font-light '>WEDNESDAY</p>
+            <div className='w-[50%] border-b border-dotted'></div>
+            <p className='font-oswald text-xs font-light pt-9'>9AM-6PM</p>
+            </div>
+            <div className='flex justify-between'>
+            <p className='font-oswald text-xs pt-9 font-light '>THURSDAY</p>
+            <div className='w-[50%] border-b border-dotted'></div>
+            <p className='font-oswald text-xs font-light  pt-9'>9AM-6PM</p>
+            </div>
+            <div className='flex justify-between'>
+            <p className='font-oswald text-xs pt-9 font-light '>FRIDAY</p>
+            <div className='w-[50%] border-b border-dotted'></div>
+            <p className='font-oswald text-xs font-light  pt-9'>9AM-6PM</p>
+            </div>
+            <div className='flex justify-between'>
+            <p className='font-oswald text-xs pt-9 font-light '>SATURDAY</p>
+            <div className='w-[50%] border-b border-dotted'></div>
+            <p className='font-oswald text-xs font-light  pt-9'>10AM-4PM</p>
+            </div>
+            <div className='flex justify-between'>
+            <p className='font-oswald text-xs pt-9 font-light '>SUNDAY</p>
+            <div className='w-[50%] border-b border-dotted'></div>
+            <p className='font-oswald text-xs font-light  pt-9'>CLOSED</p>
+            </div>
         </div>
-        <div className='bg-[#d19d64] md:w-[25%] md:h-[95%] h-[60%] mx-4'>
+        <div className='bg-[#d19d64] w-[300px] md:w-[400px]'>
             <h3 className='font-oswald text-center pt-6 text-xl font-bold'>BOOK NOW</h3>
             <img className='w-[30px] mx-auto' src='./barber-scissors.png' />
             <div>
@@ -39,7 +67,7 @@ const Appointment = () => {
                         <option className='bg-white'>10:00 to 11:00</option>
                         <option className='bg-white'>11:00 to 11:30</option>
                     </select>
-                    <input className='bg-black w-[80%] mt-6 py-2 font-oswald text-[#d19d64] text-[10px] font-bold hover:cursor-pointer hover:bg-white hover:text-black hover:duration-500' type='submit' value='MAKE AN APPOINTMENT NOW' />
+                    <input className='bg-black w-[80%] mt-10 py-2 font-oswald text-[#d19d64] text-[10px] font-bold hover:cursor-pointer hover:bg-white hover:text-black hover:duration-500' type='submit' value='MAKE AN APPOINTMENT NOW' />
                 </form>
             </div>
 
