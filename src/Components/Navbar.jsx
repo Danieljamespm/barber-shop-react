@@ -22,9 +22,9 @@ const Navbar = () => {
         <li className='w-28'><Logo/></li>
         <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#pricing'>PRICING</a></li>
         <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#appointment'>APPOINTMENT</a></li>
-        <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#'>GALLERY</a></li>
-        <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#'>LATEST BLOG</a></li>
-        <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#'>LOCATION</a></li>
+        <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#gallery'>GALLERY</a></li>
+        <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#'>JOIN US</a></li>
+        <li className='hidden lg:flex hover:text-[#bb9e86] hover:duration-1000'><a href='#'>CONTACT US</a></li>
         
         <div onClick={handleNav} className='lg:hidden'>
           
@@ -42,9 +42,9 @@ const Navbar = () => {
         <li className='p-2 border-b border-gray-500 hover:text-gray-500 hover:duration-700'><a href='#team'>OUR TEAM</a></li>
         <li className='p-2 border-b border-gray-500 hover:text-gray-500 hover:duration-700'><a href='#pricing'>PRICING</a></li>
         <li className='p-2 border-b border-gray-500 hover:text-gray-500 hover:duration-700'><a href='#appointment'>APPOINTMENT</a></li>
-        <li className='p-2 border-b border-gray-500 hover:text-gray-500 hover:duration-700'><a href='#'>GALLERY</a></li>
-        <li className='p-2 border-b border-gray-500 hover:text-gray-500 hover:duration-700'><a href='#'>LATEST BLOG</a></li>
-        <li className='p-2 hover:text-gray-500 hover:duration-700'><a href='#'>LOCATION</a></li>
+        <li className='p-2 border-b border-gray-500 hover:text-gray-500 hover:duration-700'><a href='#gallery'>GALLERY</a></li>
+        <li className='p-2 border-b border-gray-500 hover:text-gray-500 hover:duration-700'><a href='#'>JOIN US</a></li>
+        <li className='p-2 hover:text-gray-500 hover:duration-700'><a href='#'>CONTACT US</a></li>
         </ul>
       </div>
 
