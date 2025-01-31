@@ -24,7 +24,7 @@ const Discount = () => {
             </div>
         </div>
         <div className='flex justify-center'>
-        <button className='bg-[#D19D64] p-2 md:p-3 md:m-10 m-5 mx-auto text-[10px] hover:text-[#d19d64] hover:bg-black hover:duration-500 rounded-lg font-bold tracking-widest'>MAKE AN APPOINTMENT</button>
+        <button className='bg-[#D19D64] p-2 md:p-3 md:m-10 m-5 mx-auto text-[9px] hover:text-[#d19d64] hover:bg-black hover:duration-500 rounded-lg font-bold font-oswald tracking-wide'>MAKE AN APPOINTMENT NOW</button>
         </div>
         </div>
     </div>

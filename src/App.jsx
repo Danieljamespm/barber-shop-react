@@ -11,6 +11,7 @@ import Discount from './Components/Discount'
 import Appointment from './Components/Appointment'
 import Pricing from './Components/Pricing'
 import Gallery from './Components/Gallery'
+import Joinus from './Components/Joinus'
 
 
 
@@ -31,6 +32,7 @@ function App() {
     <Discount />
     <Appointment />
     <Gallery/>
+    <Joinus/>
 
 
 
