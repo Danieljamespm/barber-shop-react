@@ -44,7 +44,7 @@ const Gallery = () => {
 
 
     return (
-      <div className='bg-[#EAEFF2] mb-10 md:mb-20 w-full max-w-screen-xl'>
+      <div className='bg-[#EAEFF2] mb-10 md:mb-20 w-full max-w-screen'>
         <h2 className='text-4xl text-center font-oswald font-bold pt-20 pb-2 '>GALLERY</h2>
         <img className='w-[80px] mx-auto pb-10' src='./barber-scissors.png' />
         <div className='  w-[90%] m-auto'>
