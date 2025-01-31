@@ -3,7 +3,7 @@ import React from 'react'
 
 const Joinus = () => {
   return (
-    <div className='w-full bg-black h-[200px] flex flex-col justify-center md:justify-evenly md:flex-row items-center font-oswald text-xl md:text-3xl'>
+    <div id='joinus' className='w-full bg-black h-[200px] flex flex-col justify-center md:justify-evenly md:flex-row items-center font-oswald text-xl md:text-3xl'>
         <img className='w-[80px] md:w-[150px] mx-auto md:mx-0 pb-5 md:p-0 md:pr-3' src={'./barber-scissors.png'} />
         <p className='text-white'>WANT TO BE A MEMBER? JOIN OUR CREW</p>
         <div>
