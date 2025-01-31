@@ -10,6 +10,7 @@ import Discount from './Components/Discount'
 
 import Appointment from './Components/Appointment'
 import Pricing from './Components/Pricing'
+import Gallery from './Components/Gallery'
 
 
 
@@ -29,6 +30,7 @@ function App() {
     <Pricing />
     <Discount />
     <Appointment />
+    <Gallery/>
 
 
 
