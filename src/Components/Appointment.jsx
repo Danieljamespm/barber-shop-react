@@ -5,8 +5,8 @@ const Appointment = () => {
     <div  id='appointment' className=' w-full h-[1210px] md:h-[700px] bg-black text-white'>
         <h2 className='text-center pt-20 pb-2 text-4xl font-oswald font-bold '>MAKE AN APPOINTMENT</h2>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
-        <div className=' w-full flex justify-center gap-4 pt-7  bg-white '>
-        <div className='pb-4 w-[300px] bg-slate-500 '>
+        <div className=' w-full pt-7 bg-white '>
+        <div className='pb-4 w-full md:w-[300px] bg-slate-500 '>
             <p className='font-oswald font-bold text-xl text-[#d19d64] pb-8'>OPENING HOURS</p>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs font-light'>MONDAY</p>
@@ -44,7 +44,7 @@ const Appointment = () => {
             <p className='font-oswald text-xs font-light  pt-9'>CLOSED</p>
             </div>
         </div>
-        <div className='bg-[#d19d64] w-[300px] md:w-[400px]'>
+        <div className='bg-[#d19d64] w-full sm:w-[300px] md:w-[400px] pb-10'>
             <h3 className='font-oswald text-center pt-6 text-xl font-bold'>BOOK NOW</h3>
             <img className='w-[30px] mx-auto' src='./barber-scissors.png' />
             <div>
