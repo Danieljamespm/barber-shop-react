@@ -2,45 +2,45 @@ import React from 'react'
 
 const Appointment = () => {
   return (
-    <div  id='appointment' className=' w-full h-[1210px] md:h-[700px] bg-black text-white'>
+    <div  id='appointment' className=' w-full h-[1100px] md:h-[700px] bg-black text-white'>
         <h2 className='text-center pt-20 pb-2 text-4xl font-oswald font-bold '>MAKE AN APPOINTMENT</h2>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
-        <div className=' w-full pt-7 sm:flex sm:justify-around '>
+        <div className=' w-full pt-7 sm:flex sm:justify-around px-4'>
         <div className='pb-4 w-full sm:w-[300px] '>
             <p className='font-oswald font-bold text-xl text-[#d19d64] pb-8'>OPENING HOURS</p>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs font-light'>MONDAY</p>
-            <div className='w-[50%] border-b border-dotted'></div>
+            <div className='w-[60%] sm:w-[70%] border-b border-dotted pt-2'></div>
             <p className='font-oswald text-xs font-light'>9AM-6PM</p>
             </div>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs pt-9 font-light '>TUESDAY</p>
-            <div className='w-[50%] border-b border-dotted'></div>
+            <div className='w-[60%] sm:w-[70%] border-b border-dotted'></div>
             <p className='font-oswald text-xs font-light pt-9'>9AM-6PM</p>
             </div>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs pt-9 font-light '>WEDNESDAY</p>
-            <div className='w-[50%] border-b border-dotted'></div>
+            <div className='w-[60%] sm:w-[65%] border-b border-dotted'></div>
             <p className='font-oswald text-xs font-light pt-9'>9AM-6PM</p>
             </div>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs pt-9 font-light '>THURSDAY</p>
-            <div className='w-[50%] border-b border-dotted'></div>
+            <div className='w-[60%] sm:w-[65%] border-b border-dotted'></div>
             <p className='font-oswald text-xs font-light  pt-9'>9AM-6PM</p>
             </div>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs pt-9 font-light '>FRIDAY</p>
-            <div className='w-[50%] border-b border-dotted'></div>
+            <div className='w-[62%] sm:w-[70%] border-b border-dotted'></div>
             <p className='font-oswald text-xs font-light  pt-9'>9AM-6PM</p>
             </div>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs pt-9 font-light '>SATURDAY</p>
-            <div className='w-[50%] border-b border-dotted'></div>
+            <div className='w-[60%] sm:w-[65%] border-b border-dotted'></div>
             <p className='font-oswald text-xs font-light  pt-9'>10AM-4PM</p>
             </div>
             <div className='flex justify-between'>
             <p className='font-oswald text-xs pt-9 font-light '>SUNDAY</p>
-            <div className='w-[50%] border-b border-dotted'></div>
+            <div className='w-[85%] border-b border-dotted'></div>
             <p className='font-oswald text-xs font-light  pt-9'>CLOSED</p>
             </div>
         </div>
