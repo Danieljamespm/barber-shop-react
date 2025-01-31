@@ -16,6 +16,7 @@ import image14 from '../assets/shave-6.jpg'
 import image15 from '../assets/shave-7.jpg'
 import image16 from '../assets/shave-8.jpg'
 
+
 const galleryTabs = [
     {id:'tab1', label:'HAIRCUT'},
     {id:'tab2', label:'SHAVE'}
@@ -23,50 +24,26 @@ const galleryTabs = [
 
 const tabContent = {
     tab1: (
-        <div className='w-[100%] h-[100%]'>
-            <div className='bg-gray-500 width[100%] h-[50%] m-2 flex justify-center items-center gap-2'>
-                <div className='bg-white w-[25%] h-[25%] bg-haircut-1 bg-cover bg-center hover:opacity-50'>
-                </div>
-                <div className='bg-white w-[23%] h-[90%]'></div>
-                <div className='bg-white w-[23%] h-[90%]'></div>
-                <div className='bg-white w-[23%] h-[90%]'></div>
+       <div className=' grid grid-cols-4 grid-rows-2 gap-2 w-full max-w-screen-lg mx-auto border border-gray-400'>
+        <div className='aspect-square bg-haircut-1 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-2 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-3 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-4 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-5 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-6 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-7 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-8 bg-cover bg-center'></div>
 
-            </div>
-            <div className='bg-gray-500 width[100%] h-[50%] m-2 flex justify-center items-center gap-2'>
-            <div className='bg-white w-[23%] h-[90%]'></div>
-                <div className='bg-white w-[23%] h-[90%]'></div>
-                <div className='bg-white w-[23%] h-[90%]'></div>
-                <div className='bg-white w-[23%] h-[90%]'></div>
-            </div>
-        </div>
+       </div>
     ),
     tab2: (
-        <div className=' pt-4 flex flex-wrap justify-center items-center gap-4'>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image9} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image10} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image11} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image12} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image13} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image14} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image15} alt='' />
-            </div>
-            <div className='border-[#d19d64] bg-[#d19d64] '>
-            <img className='w-[250px] h-[250px] object-cover hover:scale-95 hover:duration-500 hover:opacity-50 ' src={image16} alt='' />
-            </div>
-        </div>
+        <div className='bg-gray-500 grid grid-cols-4 w-full max-w-screen-lg mx-auto border border-gray-400'>
+        <div className='aspect-square bg-haircut-5 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-6 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-7 bg-cover bg-center'></div>
+        <div className='aspect-square bg-haircut-8 bg-cover bg-center'></div>
+
+       </div>
     )
 }
 
@@ -90,7 +67,7 @@ const Gallery = () => {
                     </button>
             ))}
         </div>
-        <div className='bg-white w-[100%] h-[100%]'>
+        <div className=''>
             {tabContent[activeTab]}
         </div>
         </div>
