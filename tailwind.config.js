@@ -11,9 +11,9 @@ export default {
         Opensans: ['"Open Sans"']
       },
       backgroundImage: {
-        'hero-image' : "url('./hero-image.jpg')",
-        'review-image' : "url('./review-image.jpg')",
-        'barber-chair' : "url('./barber-chair.jpg')",
+        'hero-image' : "url('./assets/hero-image.jpg')",
+        'review-image' : "url('./assets/review-image.jpg')",
+        'barber-chair' : "url('./assets/barber-chair.jpg')",
         'haircut-1' : "url('./assets/haircut-1.jpg')",
         'haircut-2' : "url('./assets/haircut-2.jpg')",
         'haircut-3' : "url('./assets/haircut-3.jpg')",
