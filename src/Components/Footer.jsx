@@ -24,7 +24,7 @@ const Footer = () => {
             <p className='text-center font-oswald text-white text-sm '>SUBSCRIBE TO US</p>
             <img className='w-[50px] mx-auto' src="./barber-scissors.png" alt="" />
             <p className='text-center text-[10px] text-gray-500'>Subscribe to our Newsletter to get a Gift Voucher</p>
-            <div className='flex flex-row border border-white w-[320px] mx-auto'>
+            <div className='flex flex-row border border-white w-[320px] mx-auto '>
             <input type='email' placeholder='Enter your email' className='flex-grow ' />
             <button className='bg-[#d19d64] w-[25px] pl-1 hover:bg-gray-500 hover:text-white'><FaEnvelopeOpen/></button>
             </div>
