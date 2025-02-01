@@ -30,25 +30,25 @@ const Footer = () => {
             <button className='bg-[#d19d64] w-[25px] pl-1 hover:bg-gray-500 hover:text-white'><FaEnvelopeOpen/></button>
             </div>
         </div>
-        <div className='flex justify-evenly pt-10 w-[200px] mx-auto'>
-            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+        <div className='flex justify-evenly pt-5 w-[200px] mx-auto'>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center hover:bg-[#d19d64] cursor-pointer'>
                 <TiSocialFacebook/>
             </div>
-            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center hover:bg-[#d19d64] cursor-pointer'>
                 <TiSocialInstagram/>
             </div>
-            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center hover:bg-[#d19d64] cursor-pointer'>
                 <TiSocialTwitter/>
             </div>
-            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center hover:bg-[#d19d64] cursor-pointer'>
                 <TiSocialGooglePlus/>
             </div>
-            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center hover:bg-[#d19d64] cursor-pointer'>
                 <TiSocialYoutube/>
             </div>
         </div>
 
-        <p className='text-center pt-20 font-oswald text-sm text-gray-500'>&copy; 2025 Made by<span className='text-[#d19d64]'> Danny Mettler</span></p>
+        <p className='text-center pt-5 font-oswald text-[10px] text-gray-500'>&copy; 2025 Made by<span className='text-[#d19d64]'> Danny Mettler</span></p>
         
     </div>
   )
