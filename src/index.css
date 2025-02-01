@@ -3,6 +3,13 @@ html, body{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+input[type="date"]{
+-webkit-appearance: none;
+width:80%;
+height: 40px;
+}
+
+
 @tailwind components;
 @tailwind utilities;
 
