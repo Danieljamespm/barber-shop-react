@@ -45,11 +45,7 @@ const Gallery = () => {
 
     return (
       <div id='gallery' className='bg-[#EAEFF2] mb-10 md:mb-20 w-full max-w-screen'>
-component/contactus
         <h2 className='text-4xl text-center font-oswald font-bold pt-10 pb-2  '>GALLERY</h2>
-
-        
-
         <img className='w-[80px] mx-auto pb-10' src='./barber-scissors.png' />
         <div className='  w-[90%] m-auto'>
         <div className='text-center pb-5'>
