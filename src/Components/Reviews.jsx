@@ -21,7 +21,7 @@ const Reviews = () => {
 
   return (
     <div id='reviews' className='bg-black bg-blend-darken bg-opacity-70 bg-review-image h-[500px] bg-cover bg-center md:pt-10 flex flex-col items-center sm:px-20 ' >
-        <p className='text-white text-center text-4xl font-oswald font-bold'>1000+ HAPPY CLIENTS</p>
+        <p className='text-white text-center text-4xl font-oswald font-bold pt-10'>1000+ HAPPY CLIENTS</p>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
         <div className=' w-[80%] md:w-[75%] h-[50%] p-4'>
         <Slider {...settings}>
