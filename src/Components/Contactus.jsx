@@ -3,7 +3,7 @@ import { FaClock, FaEnvelopeOpen, FaMapMarkerAlt, FaPhone } from "react-icons/fa
 
 const Contactus = () => {
   return (
-    <div className='w-full h-[600px] sm:h-[300px] bg-contact-image bg-cover bg-center bg-black bg-blend-darken bg-opacity-70'>
+    <div id='contact' className='w-full h-[600px] sm:h-[300px] bg-contact-image bg-cover bg-center bg-black bg-blend-darken bg-opacity-70'>
         <h2 className='text-white font-oswald text-3xl font-bold text-center pt-10'>CONTACT US</h2>
         <img className='w-[80px] mx-auto pb-10' src='./barber-scissors.png' />
         <div className='sm:flex justify-around'>
