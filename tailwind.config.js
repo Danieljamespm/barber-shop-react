@@ -30,7 +30,7 @@ export default {
         'shave-6' : "url('./assets/shave-6.jpg')",
         'shave-7' : "url('./assets/shave-7.jpg')",
         'shave-8' : "url('./assets/shave-8.jpg')",
-        'contact-image' : "url('./assets/contactus-image.jpg')"
+        'contact-image' : "url('./assets/contactus-image.jpg')",
 
         
       }
