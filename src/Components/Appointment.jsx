@@ -59,7 +59,7 @@ const Appointment = () => {
                         <option className='bg-white'>Massage</option>
                         <option className='bg-white'>Pedicure</option>
                     </select>
-                    <input  className='bg-[#d19d64] border border-white w-[80%] mb-2 text-md font-oswald py-1 indent-1 focus:outline-none'type='date' name='date' placeholder='Date' />
+                    <input  className='bg-[#d19d64] border border-white w-[80%] mb-2 text-md font-oswald py-1 indent-1 focus:outline-none placeholder-gray-600'type='number' name='date' placeholder='Enter Date MM/DD/YYYY' />
                     <select className='bg-[#d19d64] border border-white w-[80%] text-md font-oswald py-1 indent-1 focus:outline-none'>
                         <option className='bg-white'>Choose Time</option>
                         <option className='bg-white'>9:00 to 9:30</option>
