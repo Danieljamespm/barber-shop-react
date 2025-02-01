@@ -30,8 +30,8 @@ const Reviews = () => {
                 <img className= 'w-[100px] h-[100px] rounded-full object-cover' src={portrait1}/>
                 </div>
 
-                <div className=' flex flex-col justify-center items-center text-center'>
-                    <p className='text-[10px] sm:text-sm font-Opensans text-white'>Vintage Cuts is a top-notch barbershop with a retro vibe that blends classic style and modern precision. The barbers are skilled, attentive, and always deliver a sharp, tailored haircut. The welcoming atmosphere makes each visit a pleasure. Whether it’s a trim or a full grooming, highly recommended for quality service.</p>
+                <div className=' flex flex-col justify-center items-center text-center pb-20'>
+                    <p className='text-xs sm:text-sm font-Opensans text-white'>Vintage Cuts is a top-notch barbershop with a retro vibe that blends classic style and modern precision. The barbers are skilled, attentive, and always deliver a sharp, tailored haircut. The welcoming atmosphere makes each visit a pleasure. Whether it’s a trim or a full grooming, highly recommended for quality service.</p>
                     <p className='font-oswald text-2xl font-bold pt-3 text-[#D19D64]'>Don Reese</p>
                 </div>
             </div>  
@@ -41,8 +41,8 @@ const Reviews = () => {
                 <img className='w-[100px] h-[100px] rounded-full object-cover' src={portrait2}/>
                 </div>
 
-                <div className=' flex flex-col justify-center items-center  text-center'>
-                    <p className='text-[10px] sm:text-sm font-Opensans text-white'>Vintage Cuts has a great vibe with a mix of old-school charm and modern skill. The barbers really know their stuff and take the time to make sure you leave looking sharp. It’s a chill spot to get a fresh cut, and I’ll definitely be back</p>
+                <div className=' flex flex-col justify-center items-center text-center pb-20'>
+                    <p className='text-xs sm:text-sm font-Opensans text-white'>Vintage Cuts has a great vibe with a mix of old-school charm and modern skill. The barbers really know their stuff and take the time to make sure you leave looking sharp. It’s a chill spot to get a fresh cut, and I’ll definitely be back</p>
                     <p className='font-oswald text-2xl font-bold pt-3 text-[#D19D64]'>Rick Owens</p>
                 </div>
             </div>  
@@ -52,8 +52,8 @@ const Reviews = () => {
                 <img className='w-[100px] h-[100px] rounded-full object-cover' src={portrait3}/>
                 </div>
 
-                <div className=' flex flex-col justify-center items-center  text-center'>
-                    <p className='text-[10px] sm:text-sm font-Opensans text-white'>If you’re looking for a solid haircut in a cool, laid-back atmosphere, Vintage Cuts is the place. The barbers are friendly and do an awesome job, paying attention to every detail. The vintage decor gives it a relaxed feel, making the whole experience really enjoyable.</p>
+                <div className=' flex flex-col justify-center items-center text-center pb-20'>
+                    <p className='text-xs sm:text-sm font-Opensans text-white'>If you’re looking for a solid haircut in a cool, laid-back atmosphere, Vintage Cuts is the place. The barbers are friendly and do an awesome job, paying attention to every detail. The vintage decor gives it a relaxed feel, making the whole experience really enjoyable.</p>
                     <p className='font-oswald text-2xl font-bold pt-3 text-[#D19D64]'>Luke Brush</p>
                 </div>
             </div>   
