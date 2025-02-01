@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../assets/barber-shop-logo-2.png'
 import {FaEnvelopeOpen} from "react-icons/fa"
+import { TiSocialFacebook, TiSocialInstagram, TiSocialTwitter, TiSocialYoutube, TiSocialGooglePlus } from "react-icons/ti"
 
 const Footer = () => {
   return (
@@ -29,6 +30,25 @@ const Footer = () => {
             <button className='bg-[#d19d64] w-[25px] pl-1 hover:bg-gray-500 hover:text-white'><FaEnvelopeOpen/></button>
             </div>
         </div>
+        <div className='flex justify-evenly pt-10 w-[200px] mx-auto'>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+                <TiSocialFacebook/>
+            </div>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+                <TiSocialInstagram/>
+            </div>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+                <TiSocialTwitter/>
+            </div>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+                <TiSocialGooglePlus/>
+            </div>
+            <div className='w-6 h-6 bg-[#191919] border border-white rounded-xl flex justify-center items-center'>
+                <TiSocialYoutube/>
+            </div>
+        </div>
+
+        <p className='text-center pt-20 font-oswald text-sm text-gray-500'>&copy; 2025 Made by<span className='text-[#d19d64]'> Danny Mettler</span></p>
         
     </div>
   )
