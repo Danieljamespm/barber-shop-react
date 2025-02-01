@@ -15,7 +15,7 @@ const Pricing = () => {
             <div className='flex justify-around flex-col md:flex-row'>
                 <div className=' w-[100%] md:w-[45%]'>
                     
-                    <div className='flex justify-between pb-3'>
+                    <div className='flex justify-between pb-3 pt-3'>
                     <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>VINTAGE HAIRCUT </p>
                     <p className='text-[#d19d64] border-b md:pt-10 border-gray-400 font-oswald '>$12</p>
                     </div>
@@ -56,7 +56,7 @@ const Pricing = () => {
             <div className='flex justify-around flex-col md:flex-row'>
             <div className=' w-[100%] md:w-[45%]'>
                 
-                <div className='flex justify-between pb-3'>
+                <div className='flex justify-between pb-3 pt-3'>
                 <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>BEAR TRIM </p>
                 <p className='text-[#d19d64] border-b md:pt-10 border-gray-400 font-oswald'>$10</p>
                 </div>
@@ -97,7 +97,7 @@ const Pricing = () => {
             <div className='flex justify-around flex-col md:flex-row'>
                 <div className=' w-[100%] md:w-[45%]'>
                     
-                    <div className='flex justify-between pb-3'>
+                    <div className='flex justify-between pb-3 pt-3'>
                     <p className='text-white font-oswald border-b w-full border-gray-400 md:pt-10'>MANICURE </p>
                     <p className='text-[#d19d64] border-b md:pt-10 border-gray-400 font-oswald'>$10</p>
                     </div>
