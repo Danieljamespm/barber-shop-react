@@ -17,9 +17,9 @@ const Carousel = () => {
 const services = [
     { id: 1, image: image1, title: ' Classic Cut', description: 'Professional haircut for all styles.' },
     { id: 2, image: image5, title: 'Razor Shave', description: 'Clean shave with razor precision.' },
-    { id: 3, image: image3, title: 'Facial', description: 'Refreshing facial treatments.' },
+    { id: 3, image: image3, title: 'Facial', description: 'Refreshing facial treatments for men.' },
     { id: 4, image: image2, title: 'Beard Trim', description: 'Perfect beard grooming services.' },
-    { id: 5, image: image4, title: 'Custom Haircut', description: 'Change your style to something new.' },
+    { id: 5, image: image4, title: 'Custom', description: 'Change your style to something new.' },
     { id: 6, image: image6, title: 'Massage', description: 'Relaxing massage for the best experience.' },
   ];
 
@@ -64,14 +64,14 @@ const services = [
 
 
   return(
-    <div id='services' className='bg-[#EAEFF2] h-[700px]'>
-      <h1 className='text-center pt-10 font-bold font-oswald text-4xl pb-2 '>SPECIAL SERVICES</h1>
-      <img className='w-[80px] mx-auto' src="./barber-scissors.png" alt="" />
+    <div id='services' className='bg-[#EAEFF2] h-[800px]'>
+      <h1 className='text-center pt-10 font-bold font-oswald text-4xl md:text-6xl pb-2 '>SPECIAL SERVICES</h1>
+      <img className='w-[80px] md:w-[150px] mx-auto' src="./barber-scissors.png" alt="" />
     <div className=' md:w-[1100px] m-auto'>
       <div className='mt-8'>
         <Slider {...settings}>
         {services.map((card) => (
-          <div className='bg-slate-200  md:h-[450px] h-[500px] border-[3px] border-black '>
+          <div className='bg-slate-200  md:h-[500px] h-[500px] border-[3px] border-black '>
             <div className='flex justify-center items-center'>
               <img src={card.image} alt='' className='w-[100%] pt-2 px-2 object-cover'/>
             </div>
