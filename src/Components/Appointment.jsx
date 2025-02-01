@@ -2,7 +2,7 @@ import React from 'react'
 
 const Appointment = () => {
   return (
-    <div  id='appointment' className=' w-full h-[1100px] md:h-[700px] bg-black text-white'>
+    <div  id='appointment' className=' w-full h-[1100px] sm:h-[700px] bg-black text-white'>
         <h2 className='text-center pt-20 pb-2 text-4xl font-oswald font-bold '>MAKE AN APPOINTMENT</h2>
         <img className='w-[80px] mx-auto' src='./barber-scissors.png' />
         <div className=' w-full pt-7 sm:flex sm:justify-around px-4'>
