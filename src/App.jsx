@@ -8,7 +8,6 @@ import Employees from './Components/Employees'
 import Discount from './Components/Discount'
 import Appointment from './Components/Appointment'
 import Pricing from './Components/Pricing'
-
 import Joinus from './Components/Joinus'
 import Contactus from './Components/Contactus'
 import Footer from './Components/Footer'
