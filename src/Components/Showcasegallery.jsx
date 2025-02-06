@@ -73,7 +73,7 @@ const Lightbox = ({ src, onClose }) => {
 
 
 
-const Testgallery = () => {
+const Showcasegallery = () => {
 
     const [activeTab, setActiveTab]= useState('haircut')
     const [lightboxImage, setLightboxImage]= useState(null)
@@ -112,4 +112,4 @@ const Testgallery = () => {
   )
 }
 
-export default Testgallery
+export default Showcasegallery
