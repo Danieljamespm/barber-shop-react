@@ -18,7 +18,7 @@ const Discount = () => {
             <ul className='text-justify list-disc list-inside'>
                 <li className=''>Leave a 5 star review</li>
                 <li>Share a photo of your haircut and tag us! #VINTAGECUTS</li>
-                <li>Refer a friend <br></br> <span className='text-sm'>(have them present a business card 
+                <li>Refer a friend <br></br> <span className='text-sm lg:text-lg'>(have them present a business card 
                     with your stylists signature)</span></li>
             </ul>
             </div>
