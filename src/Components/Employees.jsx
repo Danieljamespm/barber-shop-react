@@ -64,7 +64,7 @@ const Employees = () => {
             <div className='mt-20'>
                 <Slider {...settings}>
                     {employees.map((card) => (
-                        <div className='bg-slate-200  md:h-[470px] border-[3px] border-black' >
+                        <div key={card.id} className='bg-slate-200  md:h-[470px] border-[3px] border-black' >
                             <div className='flex justify-center items-center'>
                                 <img src={card.image} alt=''className='h-[395px] w-[400px] object-cover '/>
                             </div>

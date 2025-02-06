@@ -12,6 +12,7 @@ import Gallery from './Components/Gallery'
 import Joinus from './Components/Joinus'
 import Contactus from './Components/Contactus'
 import Footer from './Components/Footer'
+import Showcasegallery from './Components/Showcasegallery'
 
 
 
@@ -31,7 +32,7 @@ function App() {
     <Pricing />
     <Discount />
     <Appointment />
-    <Gallery/>
+    <Showcasegallery/>
     <Joinus/>
     <Contactus />
     <Footer />
