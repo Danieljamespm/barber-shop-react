@@ -76,7 +76,7 @@ const services = [
               <img src={card.image} alt='' className='w-[100%] pt-2 px-2 object-cover'/>
             </div>
 
-            <div className='flex flex-col items-center justify-center gap-4 p-10 md:p-5 px-2 mx-2 hover:bg-black hover:text-white'>
+            <div className='flex flex-col items-center justify-center gap-4 p-10 md:p-5 px-2 mx-2 hover:bg-black hover:text-white hover:duration-500'>
               <p className='text-[#D19D64] text-4xl font-oswald uppercase font-bold text-center px-2'>{card.title}</p>
               <p className='text-lg px-2'>{card.description}</p>
               <button className='bg-white border-[1px] border-black text-black px-10 py-2 m-5 md:mx-32 text-sm hover:bg-[#bb9e86] hover:text-white hover:duration-500 rounded-lg font-oswald font-bold tracking-widest text-nowrap'>READ MORE</button>
