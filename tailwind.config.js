@@ -11,6 +11,8 @@ export default {
         Opensans: ['"Open Sans"']
       },
       backgroundImage: {
+        'hero-image-large' : "url('./assets/hero-image-large.jpg')",
+        'hero-image-small' : "url('./assets/hero-image-small.jpg')",
         'hero-image' : "url('./assets/hero-image.jpg')",
         'review-image' : "url('./assets/review-image.jpg')",
         'barber-chair' : "url('./assets/barber-chair.jpg')",
