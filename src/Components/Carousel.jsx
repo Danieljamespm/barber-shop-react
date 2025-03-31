@@ -71,7 +71,7 @@ const services = [
       <div className='mt-8'>
         <Slider {...settings}>
         {services.map((card) => (
-          <div key={card.id} className='bg-slate-200  md:h-[500px] h-[500px] border-[3px] border-black '>
+          <div key={card.id} className='bg-slate-200  md:h-[500px] h-[520px] border-[3px] border-black '>
             <div className='flex justify-center items-center'>
               <img src={card.image} alt='' className='w-[100%] pt-2 px-2 object-cover'/>
             </div>
