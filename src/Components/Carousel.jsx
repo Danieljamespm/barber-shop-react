@@ -20,7 +20,7 @@ const services = [
     { id: 3, image: image3, title: 'Facial', description: 'Refreshing facial treatments for men.' },
     { id: 4, image: image2, title: 'Beard Trim', description: 'Perfect beard grooming services.' },
     { id: 5, image: image4, title: 'Custom', description: 'Change your style to something new.' },
-    { id: 6, image: image6, title: 'Massage', description: 'Relaxing massage for the best experience.' },
+    { id: 6, image: image6, title: 'Massage', description: 'Get a relaxing massage.' },
   ];
 
   
