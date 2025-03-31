@@ -2,6 +2,8 @@
 html, body{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: auto;
+    
 }
 input[type="date"]{
 -webkit-appearance: none;
