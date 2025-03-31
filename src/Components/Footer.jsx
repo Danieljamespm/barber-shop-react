@@ -5,7 +5,7 @@ import { TiSocialFacebook, TiSocialInstagram, TiSocialTwitter, TiSocialYoutube, 
 
 const Footer = () => {
   return (
-    <div className='w-full h-[670px] bg-[#191919]'>
+    <div className='w-full h-[690px] bg-[#191919]'>
         <img src={Logo} alt='barbershop logo' className='w-32 md:w-48 mx-auto pt-10 pb-4' />
         <div className='sm:flex justify-center'>
             <ul className='text-white font-oswald text-sm md:text-md font-light text-center pt-5 sm:flex sm:justify-between sm:w-[700px]'>
