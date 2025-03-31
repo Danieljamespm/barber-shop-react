@@ -7,8 +7,8 @@ const Discount = () => {
     <div className='bg-white h-[800px] sm:h-[700px] md:h-[700px] flex justify-center pt-24'>
         <div className='h-[42%] bg-[#EAEFF2] w-[92%] p-2  border-black border-2'>
         <div className='h-[100%] bg-black w-[100%] m-auto flex justify-center items-center flex-col '>
-            <p className='text-[#D19D64] font-oswald text-3xl md:text-5xl lg:text-6xl font-bold'>GET FLAT 25% DISCOUNT</p>
-            <p className='text-white text-2xl md:text-5xl lg:text-6xl font-oswald font-light'>ON EVERY SUNDAY OF DECEMBER</p>
+            <p className='text-[#D19D64] font-oswald text-3xl md:text-5xl lg:text-6xl font-bold'>GET 25% OFF DISCOUNT</p>
+            <p className='text-white text-2xl md:text-5xl lg:text-6xl font-oswald font-light'>EVERY SUNDAY DURING DECEMBER</p>
             <p className='text-white font-oswald p-4 text-xl md:text-2xl lg:text-3xl'>USE PROMO CODE: <span className='text-[#d19d64]'>VINTAGEBARBER</span></p>
         </div>
         <div className=' font-oswald text-md lg:text-2xl w-full text-center pt-10'>
